@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+div.box1{
+    width: 80px;
+    height: 20px;
+    background-color: grey;
+}
+div.box2{
+    width: 80px;
+    height: 20px;
+    background-color: grey;
+}
+div.box3{
+    width: 80px;
+    height: 20px;
+    background-color: grey;
+}
+center{
+    background-image: url("IMG_20200323_220338_745.jpg") ;
+    height: 80vh;
+    background-size: cover;
+    background-position: cover;
+    font-style: italic;
+    color: white;
+
+    
+}
+body{
+    
+    background: whitesmoke;
+    color: white;
+    font-style: inherit;
+    color: black;
+   
+}
+
+
+
+@media screen and (max-width: 10px){
+    body{
+        font-size: 3rem;       
+    }
+}
+
+h2{
+    background-color: lavender;
+}
+
+.Menu{
+    width: 35%;
+    float: right;
+    list-style: none;
+    right: 0px;
+    top: 0px;
+}
